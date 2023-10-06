@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.19;
-//swisstronik-challenge
-contract Swiss {
+//swisstronik X TechFiesta Challenge
+contract SwissFiesta {
     //declaring the variable as private
     string private bountyWinner;
 
