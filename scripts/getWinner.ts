@@ -4,8 +4,8 @@ import { ethers } from "ethers";
 const hre = require("hardhat");
 const swissRPC = 'https://json-rpc.testnet.swisstronik.com/';
 const mumbaiRPC = 'https://sly-spring-isle.matic-testnet.discover.quiknode.pro/306107e4bc13a52d3467a686206c9737618eb708/'
-const getWinner = async (rpcURL, contractAddress, storageIndex) => {
-    const provider = new ethers.getDefaultProvider(rpcURL)
+const getWinner = async (rpcURL: string, contractAddress: string, storageIndex: number) => {
+    const provider: any = new ethers.getDefaultProvider(rpcURL)
   
     try {
       const storageValue = await provider.getStorage(contractAddress, storageIndex);
