@@ -9,9 +9,11 @@ const getWinner = async (rpcURL: string, contractAddress: string, storageIndex: 
   
     try {
       const storageValue = await provider.getStorage(contractAddress, storageIndex);
+      console.log(`Hex = `, storageValue )
       // Remove '0x' from the start
       const winnerText = Buffer.from(storageValue.slice(2), 'hex').toString(); 
-      console.log(`Anddd the Winner is:  0x${winnerText}`);
+      
+      console.log(`And the Winner is:  ${winnerText}`);
     } catch (error) {
       console.error("Error:", error);
     }
