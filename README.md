@@ -35,7 +35,7 @@ npx hardhat run scripts/getWinner.ts --network swisstronik
 
 ```shell
 
-Hex =  0x7160a7d1fe8770222b24bf6496b6ad8638e83443fac6b4226d73d155063c6bcc
+Hex =  `0x7160a7d1fe8770222b24bf6496b6ad8638e83443fac6b4226d73d155063c6bcc`
 And the Winner is:  q`����p"+$�d����8�4C�ƴ"ms�U<k�
 ```
 
@@ -50,8 +50,8 @@ npx hardhat run scripts/getWinner.ts --network mumbai
 #### `Response`
 
 ```shell
-Hex =  0x6761627269656c74656d7473656e00000000000000000000000000000000001c
-And the Winner is:  gabrieltemtsen
+Hex =  `0x6761627269656c74656d7473656e00000000000000000000000000000000001c`
+And the Winner is:  `gabrieltemtsen`
 ```
 
 
@@ -59,4 +59,4 @@ And the Winner is:  gabrieltemtsen
 ## Conclusion
 
 It seems the Swisstronik blockchain provides privacy in the contract with the private EVM execution using their cutting-edge tech and solutions, Intel SGX
-While on the Polygon Mumbai Testnet, even as the state variable was private...in the scripts it still returned it's value.
+While on the Polygon Mumbai Testnet, even as the state variable was `private`...in the scripts it still returned it's value.
