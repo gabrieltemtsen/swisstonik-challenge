@@ -6,12 +6,12 @@ The contract has an inittial `private` state variable (SetWinner: string) from d
 ## Smart Contract deployed on Swisstronik EVM Testnet
 
 ```
-0x09270CF87bC64022DC0d68423D01b3e509A222A1 
+0x09270CF87bC64022DC0d68423D01b3e509A222A1
 ```
 ## Smart Contract deployed on Mumbai
 
 ```
-0x6421ad2b45bF585069a4Ea6d05a77eeEBc8D8bb7 
+0x6421ad2b45bF585069a4Ea6d05a77eeEBc8D8bb7
 ```
 
 
